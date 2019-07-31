@@ -82,6 +82,13 @@ class LoginPage extends StatelessWidget {
                         ),
                         style: TextStyle(fontSize: 20),
                       ),
+                      Container(
+                        child: FlatButton(
+                        child: Text(
+                          "Perdeu a senha foi?",
+                        ),
+                        onPressed: () {})
+                      ),
                     ],
                   ),
                 ))
