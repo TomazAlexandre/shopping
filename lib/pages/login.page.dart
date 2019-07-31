@@ -83,12 +83,33 @@ class LoginPage extends StatelessWidget {
                         style: TextStyle(fontSize: 20),
                       ),
                       Container(
-                        child: FlatButton(
-                        child: Text(
-                          "Perdeu a senha foi?",
-                        ),
-                        onPressed: () {})
+                          height: 40,
+                          alignment: Alignment.centerRight,
+                          child: FlatButton(
+                              child: Text(
+                                "Perdeu a senha foi?",
+                              ),
+                              onPressed: () {})),
+                      SizedBox(
+                        height: 10,
                       ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(5),
+                          ),
+                        ),
+                        child: FlatButton(
+                          child: Text(
+                            "Logar",
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                          onPressed: () {},
+                        ),
+                      )
                     ],
                   ),
                 ))
